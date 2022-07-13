@@ -28,3 +28,17 @@ Chap 2 related
 # pointer (pointer_char.c pointer_int.c)
 # struct (struct.c)
 # object, function, type, pointer.
+
+Chap 3 
+# ARITHMETIC TYPES
+## the detail of [signed/unsigned] char, short, int, long, long long
+### the range and arrangement of signed/unsigned integer 
+## the detail of float and double
+### 32bit (1 + 8 + 23), 64bit (1 + 11 + 52)
+## Boeing 787 reboot every 248days (guess 2^31 * 100s)
+## Hacker News website down (SSD)
+## https://www.phoronix.com/scan.php?page=news_item&px=Linux-Kernel-Faster-memchr
+## limit
+### (sum + ui > UINT_MAX) v.s. (ui > UINT_MAX - sum)
+## decimal, octal (0???), hexadecimal (0x???)
+## Integer Promotions (overflow.c)
