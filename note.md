@@ -17,7 +17,7 @@ Chap 2 related
 # Basic type in C
 ## bool
 ## char
-## int/short/long
+## short/int/long
 ## float/double
 ## enum (enum.c)
 ## union (union.c)
