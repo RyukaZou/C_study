@@ -8,12 +8,22 @@ int main()
 	char xyz[] = "xyz";
 	char *p;
 
+	int max;
+
+	if (0)
+	{
+	// condition
+	i = 3;
+	j = 5;
+	max = i > j ? i : j;
+	printf("max = %d\n", max);
+
 	// ++ --
 	i = 0;
 	r = 0;
-	r = i++;
+	r = i++; // i++ ~ i = i + 1
 	printf("result = %d i = %d\n", r, i);
-	
+
 	i = 0;
 	r = 0;
 	r = i--;
@@ -21,14 +31,14 @@ int main()
 	
 	i = 0;
 	r = 0;
-	r = ++i;
+	r = ++i; // ++i ~ i = i + 1
 	printf("result = %d i = %d\n", r, i);
 	
 	i = 0;
 	r = 0;
-	r = --i;
+	r = --i; 
 	printf("result = %d i = %d\n", r, i);
-
+	}
 
 	p = afh;
 	printf("%c\n", *p);
@@ -37,7 +47,7 @@ int main()
 
 	p = afh;
 	printf("%p - %c\n", p, *p);
-	printf("%p - %c\n", p, *p++); // *p++ = *(p++)
+	printf("%p - %c\n", p, *p++ ); // *p++ = *(p++)
 	printf("%p\n", p);
 	printf("%s\n", afh);
 
@@ -50,10 +60,9 @@ int main()
 	printf("i=%d j=%d k=%d\n", i, j, k);
 	printf("%d\n", ++i + ++j * --k);
 	printf("i=%d j=%d k=%d\n", i, j, k);
-	printf("%d\n", ++i + ++j * --k);
-	//printf("%d\n", i++ + j++ * k--);
+	// printf("%d\n", ++i + ++j * --k);
+	printf("%d\n", i++ + j++ * k--);
 	printf("i=%d j=%d k=%d\n", i, j, k);
-
 
 	i = 5;
 	printf("\n");
