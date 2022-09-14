@@ -1,0 +1,26 @@
+words = ['cat', 'window', 'defenestrate']
+
+for w in words:
+	print(w, len(w))
+
+l = list(range(10))
+print(l)
+l = list(range(3, 10))
+print(l)
+l = list(range(0, 10, 3))
+print(l)
+l = list(range(-10, -100, -30))
+
+for i in range(10):
+	print(i)
+
+for i in range(2, 50):
+	print(i)
+
+l = list(range(5, 10))
+for i in l:
+	print (i)
+
+l = list(range(0, 10, 3))
+for i in l:
+	print (i)
