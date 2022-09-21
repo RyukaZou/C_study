@@ -12,14 +12,18 @@ int main()
 	i_am_global = 3;
 	printf("%d\n", i_am_global);
 
-	set_global_v(6);
 
 	// block
 	{
 		int i_am_global;
 		i_am_global = 4;
-		printf("%d\n", i_am_global);
+		printf("block %d\n", i_am_global);
 	}
+	printf("%d\n", i_am_global);
 
+
+	set_global_v(6);
+	printf("%d\n", i_am_global);
+	
 	return 0;
 }

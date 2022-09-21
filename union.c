@@ -11,8 +11,8 @@ int main()
 
 	union U
 	{
-		int i;
-		float f;
+		int I;
+		long L;
 	};
 
 	// long unsigned

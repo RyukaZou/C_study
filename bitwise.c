@@ -13,7 +13,7 @@ int main()
 	c0 = 0b1000;
 	printf("%u\n", c0);
 	
-	c0 = 'A';	
+	c0 = '0';	
 	// print bit map
 	bitmask = 1 << (8*sizeof(c0) - 1);
 	while (bitmask)
