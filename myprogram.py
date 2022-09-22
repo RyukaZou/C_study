@@ -1,3 +1,6 @@
-import myfunction
+# import myfunction
+from myfunction import fibonacci
 
-myfunction.fibonacci(100)
+# myfunction.fibonacci(100)
+fibonacci(100)
+
