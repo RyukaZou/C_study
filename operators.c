@@ -10,7 +10,7 @@ int main()
 
 	int max;
 
-	if (0)
+	if (1)
 	{
 	// condition
 	i = 3;
