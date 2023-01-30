@@ -15,7 +15,9 @@ int main()
 	// 10000000 -> -128
 	// 10000001 -> -127
 	// 10000010 -> -126
+	
 	signed char b;
+	
 	int i;
 	// 4 byte
 	short si;
@@ -39,7 +41,7 @@ int main()
 	// assign the value to variable
 	//a = 101;
 	a = 'e';
-	b = -127;
+	b = 110;
 	// i = 33;
 	// c = 0.0000000000344444445679180198019890818980;
 
@@ -49,6 +51,7 @@ int main()
 	printf("Oa = %o\n", a);
 	printf("Xa = %x\n", a);
 	printf("Ca = %c\n", a);
+	
 	printf("Db = %d\n", b);
 	printf("Ub = %u\n", b);
 	printf("Ob = %o\n", b);
